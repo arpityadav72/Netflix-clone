@@ -55,19 +55,23 @@ nav button{
     position: relative;
     gap: 23px;
     padding: 0 30px;
+    
 }
 
 .hero :first-child{
     font-weight: bolder;
     font-size: 48px;
+    text-align: center;
 }
 
 .hero :nth-child(2){
     font-weight: 400;
     font: 24px;
+    text-align: center;
 }
 
 .hero :nth-child(3){
     font-weight: 700;
     font: 20px;
+    text-align: center;
 }
