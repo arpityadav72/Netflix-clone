@@ -75,3 +75,8 @@ nav button{
     font: 20px;
     text-align: center;
 }
+
+.separation{
+    height: 11px;
+    background-color: grey;
+}
