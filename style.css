@@ -12,7 +12,7 @@ body{
 .main{
     background-image: url("assets/images/bg.jpg");
     background-position: center center;
-    background-size: 100vw;
+    background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
     height: 70vh;
     position: relative;
@@ -51,7 +51,7 @@ nav button{
 
 .hero {
     font-family: 'Martel Sans', sans-serif;
-    height: calc(100% - 100px);
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@ nav button{
     
 }
 
-.hero> :first-child{
+.hero> :nth-child(1){
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
@@ -71,17 +71,30 @@ nav button{
 
 .hero> :nth-child(2){
     font-weight: 400;
-    font: 24px;
+    font-size: 24px;
     text-align: center;
 }
 
 .hero> :nth-child(3){
-    font-weight: 700;
-    font: 20px;
+    font-weight: 400;
+    font-size: 20px;
     text-align: center;
 }
 
 .separation{
-    height: 11px;
-    background-color: grey;
+    height: 7px;
+    background-color: rgb(46, 44, 44);
 }
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-red{
+    background-color: red;
+
+}
+
+
