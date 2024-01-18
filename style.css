@@ -121,12 +121,37 @@ nav button{
 
 .main input{
     padding: 7px 101px 8px 14px;
-    font-weight: 900;
+    color: white;
     font-size: 12px;
     border-radius: 4px;   
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(23, 23, 23, 0.7);
 }
 
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;  
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.secImg{
+   position: relative;
+}
+
+.secImg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+} 
 
 
