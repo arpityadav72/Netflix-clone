@@ -158,18 +158,18 @@ nav button {
     width: 555px;
 }
 
-section.first > div {
+section.first>div {
     display: flex;
     flex-direction: column;
     padding: 34px 0;
 }
 
-section.first > div :nth-child(1) {
+section.first>div :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
 }
 
-section.first > div :nth-child(2) {
+section.first>div :nth-child(2) {
     font-size: 24px;
 
 }
@@ -206,29 +206,31 @@ section.first > div :nth-child(2) {
     cursor: pointer;
 }
 
-footer{
+footer {
     color: white;
-}
-
-footer span{
     max-width: 60vw;
     margin: auto;
-
+    padding: 60px;
 }
 
-.footer{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;  
-  color: white;
+footer .questions{
+   padding: 34px 0;
 }
 
-.footer a{
-    text-decoration: none;
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
 }
 
-.footer-item{
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
     display: flex;
     flex-direction: column;
+    gap: 23px;
 
 }
