@@ -207,6 +207,23 @@ section.first > div :nth-child(2) {
 }
 
 footer{
+    color: white;
+}
+
+footer span{
+    max-width: 60vw;
+    margin: auto;
+
+}
+
+.footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;  
+  color: white;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+
 }
