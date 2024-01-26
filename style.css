@@ -288,6 +288,7 @@ footer .questions{
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 25px;
     }
 
 .footer a {
