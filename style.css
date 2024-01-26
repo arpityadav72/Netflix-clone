@@ -290,6 +290,7 @@ footer .questions{
         grid-template-columns: 1fr 1fr;
         gap: 25px;
     }
+}    
 
 .footer a {
     font-size: 14px;
